@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "tsx watch src/server.ts",
-  "build": "tsc",
-  "start": "node dist/server.js",
-  "prisma:generate": "npx prisma generate",
-  "prisma:migrate": "npx prisma migrate dev",
-  "prisma:deploy": "npx prisma migrate deploy"
-},
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "prisma:generate": "npx prisma generate",
+    "prisma:migrate": "npx prisma migrate dev",
+    "prisma:deploy": "npx prisma migrate deploy"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
